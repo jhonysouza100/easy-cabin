@@ -40,6 +40,7 @@ body {
 /* Estilos para pantallas de 320px */
 @media (max-width: 320px) {
     .conteiner {
-        background-size: cover;
+        /* background-size: cover; */
+        /* max-width: 80%; */
     }
 }
