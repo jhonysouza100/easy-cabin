@@ -1,0 +1,45 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18171d;
+    color: white;
+    margin: 0 auto;
+}
+
+.conteiner {
+    background-image: url(img/Logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    height: auto;
+       
+}
+
+.wave {
+    position: absolute;
+    bottom: 1.5em;
+    width: 100%;
+    }
+
+
+.container2 {
+    padding-top: 5em;
+}
+
+/* Estilos para pantallas de 320px */
+@media (max-width: 320px) {
+    .conteiner {
+        background-size: cover;
+    }
+}
