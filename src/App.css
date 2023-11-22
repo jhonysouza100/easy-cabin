@@ -13,21 +13,3 @@
   height: auto;
      
 }
-
-.wave {
-  position: absolute;
-  bottom: 1.5em;
-  width: 100%;
-  }
-
-
-.container2 {
-  padding-top: 5em;
-}
-
-/* Estilos para pantallas de 320px */
-@media (max-width: 320px) {
-  .conteiner {
-      background-size: cover;
-  }
-}

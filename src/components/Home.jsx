@@ -4,7 +4,7 @@ function Home() {
   <section className="conteiner">
     {" "}
     {/* El inicio de la pagina */}
-    <div className="wave" style={{ height: 150, overflow: "hidden" }}>
+    {/* <div className="wave" style={{ height: 150, overflow: "hidden" }}>
       <svg
         viewBox="0 0 500 150"
         preserveAspectRatio="none"
@@ -15,7 +15,7 @@ function Home() {
           style={{ stroke: "none", fill: "#18171D" }}
         />
       </svg>
-    </div>
+    </div> */}
     {/* <div class="title">
       <h1 class="title__h1">¡Descubre un mundo de comodidad y emoción con nuestro servicio de traslado turístico!</h1>
       <p class="title__p"><strong>Traslados Portillo</strong>, nos enorgullece ofrecer una experiencia de viaje única y conveniente 
@@ -23,7 +23,7 @@ function Home() {
       excepcional, acompañado de paquetes de traslados turísticos llenos de ofertas irresistibles.</p>                         
   </div> */}
   </section>
-  <section className="container2">
+  <section className="container">
     <h1 className="about-us">¿Qué nos hace especiales?</h1>
     <ul>
       <li className="about-us__li" />
